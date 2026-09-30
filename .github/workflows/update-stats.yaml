@@ -7,8 +7,9 @@ on:
   push:
     branches: [main]
     paths:
-      - ".github/workflows/update-stats.yml"
+      - ".github/workflows/update-stats.yaml"
 
+# GITHUB_TOKENに、このリポジトリへの書き込みを許可
 permissions:
   contents: write
 
@@ -22,9 +23,13 @@ jobs:
     timeout-minutes: 10
 
     steps:
+      # この認証情報を、後続のgit pushでも使用
       - name: Checkout repository
         uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
+      # PATで非公開リポジトリの統計を取得
       - name: Generate light stats
         uses: stats-organization/github-readme-stats-action@v2
         with:
@@ -43,6 +48,7 @@ jobs:
           token: ${{ secrets.GH_STATS_TOKEN }}
           fail_on_error: true
 
+      # checkoutで設定されたGITHUB_TOKENでpush
       - name: Commit updated cards
         run: |
           git config user.name "github-actions[bot]"
