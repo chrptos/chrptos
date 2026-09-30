@@ -17,8 +17,6 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-
-
 ## 🛠️ Tech Stack
 
 **Languages & Frameworks**
@@ -33,14 +31,17 @@ Here are some ideas to get you started:
 
 [![Tools](https://skillicons.dev/icons?i=git,github,githubactions,prisma&perline=12)](https://skillicons.dev)
 
-<h2>📊 Stats</h2>
+## 📊 Stats
 
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
     srcset="./profile/stats-dark.svg"
   >
-  <img alt="chrptos's GitHub stats" src="./profile/stats.svg">
+  <img
+    alt="chrptos's GitHub stats"
+    src="./profile/stats.svg"
+  >
 </picture>
 
 <picture>
@@ -48,7 +49,10 @@ Here are some ideas to get you started:
     media="(prefers-color-scheme: dark)"
     srcset="./profile/top-langs-dark.svg"
   >
-  <img alt="Top Languages" src="./profile/top-langs.svg">
+  <img
+    alt="Top Languages"
+    src="./profile/top-langs.svg"
+  >
 </picture>
 
 </div>
