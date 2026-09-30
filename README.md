@@ -14,3 +14,11 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+## 🛠️ Tech Stack
+
+### Languages & Frameworks
+![Languages & Frameworks](https://skillicons.dev/icons?i=ts,js,python,php,nodejs,express,react,nextjs,vue,nuxtjs,django,laravel&perline=6)
+
+### Cloud & Tools
+![Cloud & Tools](https://skillicons.dev/icons?i=gcp,aws,docker,terraform,githubactions,mysql,prisma,git&perline=8)
