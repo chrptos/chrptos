@@ -1,3 +1,5 @@
+<div align="center">
+
 ## Hi there 👋
 
 <!--
@@ -15,7 +17,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<div align="center">
+
 
 ## 🛠️ Tech Stack
 
@@ -30,5 +32,15 @@ Here are some ideas to get you started:
 **Tools & Environment**
 
 [![Tools](https://skillicons.dev/icons?i=git,github,githubactions,prisma&perline=12)](https://skillicons.dev)
+
+<h2>📊 Stats</h2>
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./profile/stats-dark.svg"
+  >
+  <img alt="chrptos's GitHub stats" src="./profile/stats.svg">
+</picture>
 
 </div>
