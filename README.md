@@ -15,10 +15,20 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+<div align="center">
+
 ## 🛠️ Tech Stack
 
-### Languages & Frameworks
-![Languages & Frameworks](https://skillicons.dev/icons?i=ts,js,python,php,nodejs,express,react,nextjs,vue,nuxtjs,django,laravel&perline=6)
+**Languages & Frameworks**
 
-### Cloud & Tools
-![Cloud & Tools](https://skillicons.dev/icons?i=gcp,aws,docker,terraform,githubactions,mysql,prisma,git&perline=8)
+[![Languages](https://skillicons.dev/icons?i=ts,js,python,php,nodejs,express,react,nextjs,vue,nuxtjs,django,laravel&perline=12)](https://skillicons.dev)
+
+**Infrastructure & Cloud**
+
+[![Infrastructure](https://skillicons.dev/icons?i=gcp,aws,docker,terraform,mysql&perline=12)](https://skillicons.dev)
+
+**Tools & Environment**
+
+[![Tools](https://skillicons.dev/icons?i=git,github,githubactions,prisma&perline=12)](https://skillicons.dev)
+
+</div>
