@@ -43,4 +43,12 @@ Here are some ideas to get you started:
   <img alt="chrptos's GitHub stats" src="./profile/stats.svg">
 </picture>
 
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./profile/top-langs-dark.svg"
+  >
+  <img alt="Top Languages" src="./profile/top-langs.svg">
+</picture>
+
 </div>
