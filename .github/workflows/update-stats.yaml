@@ -33,7 +33,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=chrptos&show_icons=true&rank_icon=github&include_all_commits=true&hide_border=true&show=reviews,prs_merged,prs_merged_percentage
+          options: username=chrptos&show_icons=true&rank_icon=default&include_all_commits=true&hide_border=true&show=reviews,prs_merged,prs_merged_percentage
           path: profile/stats.svg
           token: ${{ secrets.GH_STATS_TOKEN }}
           fail_on_error: true
@@ -42,7 +42,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=chrptos&theme=tokyonight&show_icons=true&rank_icon=github&include_all_commits=true&hide_border=true&bg_color=00000000&show=reviews,prs_merged,prs_merged_percentage
+          options: username=chrptos&theme=tokyonight&show_icons=true&rank_icon=default&include_all_commits=true&hide_border=true&bg_color=00000000&show=reviews,prs_merged,prs_merged_percentage
           path: profile/stats-dark.svg
           token: ${{ secrets.GH_STATS_TOKEN }}
           fail_on_error: true
