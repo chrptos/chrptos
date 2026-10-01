@@ -1,6 +1,6 @@
 # Hi, I'm chrptos 👋
 
-**Backend Engineer · TypeScript / Node.js · Google Cloud**
+**Backend Engineer · Python / TypeScript / Google Cloud**
 
 Building web services from architecture and API design to cloud infrastructure.
 
